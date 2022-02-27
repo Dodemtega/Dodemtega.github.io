@@ -1,0 +1,1 @@
+if(window.location.href.slice(28) == "/index.html"){window.location.href='https://dodemtega.github.io';}
