@@ -1,1 +1,1 @@
-if(window.location.href == "https://dodemtega.github.io/index.html"){window.location.href='https://dodemtega.github.io';}
+if(window.location.href == "https://dodemtega.github.io/index.html" || "https://dodemtega.github.io/index.html/"){window.location.href='https://dodemtega.github.io';}
