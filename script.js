@@ -1,1 +1,3 @@
-if(window.location.href == "https://dodemtega.github.io/index.html"){window.location.href='https://dodemtega.github.io';}
+window.onload = () => {
+    if(window.location.href.endsWith("index.html")){ window.location.href = window.location.href.slice(0, 10)}
+}
