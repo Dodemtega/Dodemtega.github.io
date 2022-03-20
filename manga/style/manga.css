@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::selection{
+    background-color: rgba(0, 255, 221, 0.74);
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+#everything{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+header{
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 2vh;
+}
+header a{
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 2vh;
+    font-size: 1,5vh;
+    text-decoration: none;
+}
+header a:hover{
+    cursor: pointer;
+}
+#content{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-top: 2vh;
+}
+#content button{
+    width: 31%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1vh;
+    font-size: 2vh;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+#content button:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(245, 245, 245);
+}
+#content img{
+    width: 98%;
+    height: auto;
+    margin-top: 0%;
+}
+#content img::selection{
+    background-color: #00000000;
+}
+ 
+#comment{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 2vh;
+}
+footer{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 2vh;
+    font-size: 1,5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
